@@ -1,0 +1,17 @@
+name: japanese
+channels:
+  - conda-forge
+  - default
+dependencies:
+  - jupyter
+  - jupyterlab
+  - ipywidgets
+  - python>=3.9.0
+  - pylint
+  - rope
+  - nodejs
+  - pandas
+  - scrapy
+  - pip
+  - pip:
+    - jaconv
